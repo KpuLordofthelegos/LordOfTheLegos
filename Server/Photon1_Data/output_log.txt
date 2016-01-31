@@ -1,0 +1,95 @@
+Mono path[0] = 'C:/Users/Wi/Documents/Photon/Photon1_Data/Managed'
+Mono path[1] = 'C:/Users/Wi/Documents/Photon/Photon1_Data/Mono'
+Mono config path = 'C:/Users/Wi/Documents/Photon/Photon1_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Wi/Documents/Photon/Photon1_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55407
+Multi-casting "[IP] 192.168.123.187 [Port] 55407 [Flags] 2 [Guid] 3831202310 [EditorId] 2242137404 [Version] 1048832 [Id] WindowsPlayer(Wi-PC) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [192.168.123.187:55407]
+Initialize engine version: 5.3.1f1 (cc9cbbcc37b4)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 850M (ID=0x1391)
+    Vendor:   NVIDIA
+    VRAM:     1976 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Wi\Documents\Photon\Photon1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Wi\Documents\Photon\Photon1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Wi\Documents\Photon\Photon1_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Wi\Documents\Photon\Photon1_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Wi\Documents\Photon\Photon1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Wi\Documents\Photon\Photon1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Wi\Documents\Photon\Photon1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Wi\Documents\Photon\Photon1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Wi\Documents\Photon\Photon1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Wi\Documents\Photon\Photon1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Wi\Documents\Photon\Photon1_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading C:\Users\Wi\Documents\Photon\Photon1_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+- Completed reload, in  0.070 seconds
+Platform assembly: C:\Users\Wi\Documents\Photon\Photon1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Wi\Documents\Photon\Photon1_Data\Managed\System.dll (this message is harmless)
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.620546 ms
+Entered Lobby!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PhotonInit:OnJoinedLobby() (at C:\Users\Wi\Documents\Photon\Assets\PhotonInit.cs:28)
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+NetworkingPeer:SendMonoMessage(PhotonNetworkingMessage, Object[]) (at C:\Users\Wi\Documents\Photon\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2113)
+NetworkingPeer:OnOperationResponse(OperationResponse) (at C:\Users\Wi\Documents\Photon\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1411)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Wi\Documents\Photon\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:125)
+ 
+(Filename: C:/Users/Wi/Documents/Photon/Assets/PhotonInit.cs Line: 28)
+
+Enter Room : InputFieldRoom (UnityEngine.UI.InputField)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PhotonInit:OnJoinedRoom() (at C:\Users\Wi\Documents\Photon\Assets\PhotonInit.cs:50)
+UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
+NetworkingPeer:SendMonoMessage(PhotonNetworkingMessage, Object[]) (at C:\Users\Wi\Documents\Photon\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:2113)
+NetworkingPeer:OnEvent(EventData) (at C:\Users\Wi\Documents\Photon\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:1914)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(Byte[])
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+PhotonHandler:Update() (at C:\Users\Wi\Documents\Photon\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs:125)
+ 
+(Filename: C:/Users/Wi/Documents/Photon/Assets/PhotonInit.cs Line: 50)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.179606 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at RoomInit.GetConnectPlayerCount () [0x00006] in C:\Users\Wi\Documents\Photon\Assets\RoomInit.cs:17 
+  at RoomInit.Awake () [0x00006] in C:\Users\Wi\Documents\Photon\Assets\RoomInit.cs:12 
+ 
+(Filename: C:/Users/Wi/Documents/Photon/Assets/RoomInit.cs Line: 17)
+
+System memory in use before: 18.6 MB.
+System memory in use after: 18.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 289.
+Total: 0.437382 ms (FindLiveObjects: 0.023290 ms CreateObjectMapping: 0.027632 ms MarkObjects: 0.367906 ms  DeleteObjects: 0.016579 ms)
+
+UnloadTime: 0.436987 ms
+Ignoring Connect() because app gets closed. If this is an error, check PhotonHandler.AppQuits.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+NetworkingPeer:ConnectToRegionMaster(CloudRegionCode) (at C:\Users\Wi\Documents\Photon\Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs:410)
+PhotonNetwork:ConnectUsingSettings(String) (at C:\Users\Wi\Documents\Photon\Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs:1254)
+PhotonInit:Awake() (at C:\Users\Wi\Documents\Photon\Assets\PhotonInit.cs:19)
+ 
+(Filename: C:/Users/Wi/Documents/Photon/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs Line: 410)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 10e0 -> priority: 1 
